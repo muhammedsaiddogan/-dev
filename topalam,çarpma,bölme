@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a, b;
+    printf("Birinci sayiyi girin: ");
+    scanf("%d", &a);
+    printf("Ikinci sayiyi girin: ");
+    scanf("%d", &b);
+
+    printf("Toplam: %d\n", a + b);
+    printf("Carpim: %d\n", a * b);
+    printf("Bolme a/b: %d\n", a / b);
+    printf("Bolme b/a: %d\n", b / a);
+
+    return 0;
+}
