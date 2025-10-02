@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() {
+    int i, not, toplam = 0;
+    float ort;
+
+    printf("4 not gir:\n");
+    for (i = 1; i <= 4; i++) {
+        scanf("%d", &not);
+        toplam = toplam + not;
+    }
+
+    ort = toplam / 4;
+
+    if (ort < 50) {
+        printf("Ortalama: %.2f - Kaldi\n", ort);
+    } else {
+        printf("Ortalama: %.2f - Gecti\n", ort);
+    }
+
+    return 0;
+}
